@@ -1,0 +1,242 @@
+:root{
+
+    background-color: #cfcfcf;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+.containercontact{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+.containerpro{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+   
+  
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+
+    font-size: 18px;
+    
+    font-family: 'Titillium Web','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px ;
+    background-color: #2C2929;
+    border: black;
+    box-shadow: 0px 13px 8px rgba(0, 0, 0, 0.5);
+
+}
+.footerr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px ;
+    background-color: #cfcfcf;
+    border: black;
+   
+
+}
+.footerr ul{
+   
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+   
+}
+
+.footerr a{
+    padding-top: 25px;
+   
+   
+}
+.footerr a  :hover{
+    background-color: whitesmoke;
+    border-radius: 85px;
+}
+footer p{
+    font-size: 18px;
+    font-family: 'Titillium Web','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    color: #312F2F;
+    text-align: center;
+}
+.footerr nav{
+    width: 65%;
+}
+.cabecalho ul{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.cabecalho nav{
+    width: 65%;
+}
+.cabecalho li{
+    padding-top: 25px;
+}
+.banner {
+    background-image: url("../Images/wp7778827.jpg");
+    width: 100%;
+    height: 700px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+}
+.imagembaneer{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.senacode{
+    margin-top: 140px;
+    border-style: solid;
+}
+.eu{
+   border-style: solid;
+}
+.logo{
+    border-style: solid;
+}
+.contact{
+    display: flex;
+ flex-direction: column;
+ padding: 45px;
+ padding-top: 85px;
+ 
+ 
+    
+}
+.contact p{
+    font-size: 38px;
+    font-family: 'Titillium Web','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    color: #474646;
+    padding-left: 45px;
+    padding-top: 15px;
+}
+.contactimage{
+    padding-left: 55px;
+    padding-top: 15px;
+    
+}
+.contact a  :hover{
+    background-color: whitesmoke;
+    border-radius: 85px;
+}
+.email{
+    color: #474646;
+    padding-left: 5px;
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.phone{
+    color: #474646;
+   padding-left: 65px;
+   font-weight: bold;
+ 
+   font-size: 20px;
+}
+.textsobre h1{
+    color: #474646;
+    font-size: 48px;
+    font-family: 'Titillium Web','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   padding-left: 45px;
+    padding-top: 45px;
+}
+.textsobre p{
+    padding-top: 45px;
+    width: 940px;
+    font-size: 25px;
+    font-family: 'Titillium Web','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  
+    
+}
+.textsobre h3{
+    color: #474646;
+    font-size: 28px;
+    font-family: 'Titillium Web','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   padding-left: 45px;
+    padding-top: 45px;
+}
+.imagesenai{
+    
+    margin-left: 85px;
+    margin-top: 85px;
+    border-style: solid;
+  
+}
+.formacao{
+    display: flex;
+}
+
+.Projetos{
+    text-align: center;
+}
+.Projetos h1{
+    color: #D2CBCB;
+    font-size: 48px;
+    font-family: 'Titillium Web','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+   
+    padding-top: 105px;
+    text-align: center;
+    
+}
+.Projetos p{
+    color: #D2CBCB;
+   
+    font-size: 38px;
+    font-family: 'Titillium Web','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  
+   
+}
+#Projetos{
+    background-color: #312F2F;
+    box-shadow: 0px 13px 8px rgba(0, 0, 0, 0.5);
+}
+.LinxPro{
+    padding-top: 65px;
+    padding-left: 310px;
+    border: none;
+}
+.project h1{
+    text-align: center;
+    font-size: 38px;
+    padding-top: 85px;
+    font-family: 'Titillium Web','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: #D2CBCB;
+}
+
+.project p{
+    text-align: center;
+    width: 940px;
+    padding-left: 215px;
+    font-size: 21px;
+    padding-top: 85px;
+    font-family: 'Titillium Web','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: #D2CBCB;
+}
