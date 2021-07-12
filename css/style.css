@@ -114,9 +114,11 @@ footer p{
 .senacode{
     margin-top: 140px;
     border-style: solid;
+    width: 480px;
 }
 .eu{
    border-style: solid;
+   width: 250px;
 }
 .logo{
     border-style: solid;
@@ -222,6 +224,8 @@ footer p{
     padding-top: 65px;
     padding-left: 310px;
     border: none;
+    width: 762px;
+    height: 455px;
 }
 .project h1{
     text-align: center;
@@ -240,3 +244,147 @@ footer p{
     font-family: 'Titillium Web','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     color: #D2CBCB;
 }
+#menu2{
+    display: none;
+}
+#menu2 nav{
+    display: none;
+}
+.cabecalho .fa-bars{
+ 
+    font-size: 1.5em;
+     /* margin-left: 2em;   */
+    /* padding: 0.5em; */ 
+    display: none;
+
+}
+.hamburguer{
+    display: none;
+}
+
+@media screen and (max-width: 460px){
+    
+    .project p{
+        padding-left: 0px;
+        width: 350px;
+        padding-top: 45px;
+    }
+    .eu{
+        width: 200px;
+       
+        margin-left: 30px;
+    }
+    .contact p{
+        padding-left: 57px;
+    }
+    .contactimage{
+        padding-left: 58px;
+    }
+    
+    .logo{
+        width: 55px;
+       
+    }
+    .hamburguer{
+        height: 60px;
+       
+    }
+    .senacode{
+        width: 175px;
+    }
+    .banner{
+        height: 500px;
+    }
+    .containercontact{
+        flex-direction: column;
+    }
+    .textsobre h1{
+       
+        align-items: center;
+    }
+    .imagesenai{
+        margin-top: 55px;
+        margin-bottom: 55px;
+        margin-left: 80px;
+    }
+    .textsobre p{
+        width: 300px;
+        text-align: center;
+        padding-left: 25px;
+        font-size: 19px;
+        padding-top: 15px;
+    }
+    .formacao{
+        flex-direction: column;
+    }
+    .LinxPro{
+        width: 328px;
+        height: 200px;
+        padding-left: 15px;
+    }
+    .cabecalho .fa-bars{
+        display: block;
+        padding-right: 95px;
+    }
+    .project h1{
+        font-size: 26px;
+    }
+
+ 
+   
+    #menu{
+        position: absolute; 
+        top: 72px;
+        background-color: #8944f1;
+        width: 100%;
+        display: none;
+    }
+    #menu2{
+        position:absolute; 
+        top: 60px;
+        background-color: #2C2929;
+        width: 70%;
+        display: none;
+        
+    }
+    .cabecalho div{
+       display: flex;
+     
+       width: 100%;
+       align-items: center;
+       padding: 0 2em;
+    }
+    .cabecalho ul a{
+        padding: 0.5em 80% 1em 0.5em;
+        margin: 0.1em 0;
+        
+        
+    }
+    .cabecalho ul{
+        flex-direction: column;
+        height: 180px;
+        display: inline;
+        justify-content: space-between;
+       
+    }
+    .cabecalho li{
+        padding-bottom: 25px;
+        border-style: solid;
+    }
+   
+
+   
+   
+    
+
+  
+   footer .container{
+       flex-direction: column;
+   }
+   footer h6{
+    text-align: start;
+   }
+  
+   
+  
+} /* Fim media mas 460px*\
